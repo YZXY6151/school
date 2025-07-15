@@ -1,18 +1,18 @@
-# 忽略所有 node_modules 文件夹，无论在哪一层
-node_modules/
+# 依赖文件夹
+/node_modules/
+/react-test/node_modules/
+/dist/
+/build/
 
-# 构建输出目录
-build/
-dist/
-
-# 环境变量文件
+# 配置文件
 .env
+.env.*.local
 
 # 日志文件
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
-# 编辑器 / 系统文件
+# 系统/编辑器
 .DS_Store
 .vscode/

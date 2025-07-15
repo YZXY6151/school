@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    label,
+    p {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 0.3rem;
+        box-sizing: border-box;
+    }
+
+    button {
+        margin-right: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .confirm-content {
+        margin: 2rem auto;
+        max-width: 400px;
+
+        .row {
+            display: flex;
+            margin: 0.6rem 0;
+        }
+
+        .label {
+            width: 6em;
+            font-weight: bold;
+            text-align: right;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+
+        .value {
+            flex-grow: 1;
+            word-break: break-word;
+        }
+    }
+
+
+
+    .button-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .link-button {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border: 1px solid #333;
+        text-decoration: none;
+        color: #333;
+        border-radius: 4px;
+        transition: background 0.2s;
+
+        &:hover {
+            background: #eee;
+        }
+    }
+
+
+}
+
+// 🔧 radio / checkbox 整齐横向排版
+.option-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.3rem;
+
+    label {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.95rem;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: auto;
+    }
+
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
